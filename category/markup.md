@@ -1,6 +1,4 @@
 ---
 layout: category
-title: Markup
+title: Números
 ---
-
-Another sample category page.
