@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Tufte-LaTeX Working Papers
+title:            Tufte-LaTeX
 tagline:          'ISSN (En Trámite)'
-description:      'ISSN (En Trámite)'
+description:      'Working Papers | ISSN (En Trámite)'
 url:              https://bgonzalezbustamante.github.io
 baseurl:          '/tuftepapers/'
                   # the optional subpath of your site, e.g. "/blog"
