@@ -1,5 +1,5 @@
 <div class="post-meta">
-  <span class="post-date">{% assign m = post.date | date: "%-m" %}
+  <span class="post-date">{{% assign m = post.date | date: "%-m" %}
 		  {% case m %}
 		  {% when '1' %}Enero
 		  {% when '2' %}Febrero
@@ -14,7 +14,7 @@
 		  {% when '11' %}Noviembre
 		  {% when '12' %}Diciembre
 		  {% endcase %}
-		  {{ post.date | date: "%Y" }}</span>
+		  {{ post.date | date: "%Y" }}}</span>
   <span class="post-categories">
     {% for category in include.post.categories %}
       &bull;
