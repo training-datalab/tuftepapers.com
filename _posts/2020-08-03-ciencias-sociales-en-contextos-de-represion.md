@@ -6,7 +6,7 @@ categories:
 excerpt_separator:  <!--more-->
 ---
 
-<p align=" justify">**Citación**<br />
+<p align=" justify"><b>Citación</b><br />
 Cisternas, C., & González-Bustamante, B. (2020). Ciencias sociales en contextos de represión: Análisis bibliométrico de la producción histórica de CIEPLAN en Chile 1979-1989. *Tufte Working Papers*, (1), 1-XX. DOI: Por confirmar.</p>
 
 **Financiamiento** <br />
