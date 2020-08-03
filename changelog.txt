@@ -1,0 +1,17 @@
+# Changelog
+All notable changes to "Tufte Working Papers" will be documented in this file.
+
+## [Unreleased]
+
+## [Released]
+
+## [0.2.0] - 2020-08-04
+### Added
+- GitHub page powered by Jekyll.
+- DNS domain redirections.
+- License CC-BY Attribution 4.0 International at GitHub repository.
+- Changelog in TXT format at GitHub repository.
+
+## [0.1.0] - 2020-08-03
+### Added
+- GitHub repository.
