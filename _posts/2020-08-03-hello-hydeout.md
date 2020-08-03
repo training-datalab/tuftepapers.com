@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ciencias sociales en contextos de represión
-cateogory: Números
+categories:
+  - Números
 excerpt_separator:  <!--more-->
 ---
 
