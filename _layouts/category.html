@@ -14,22 +14,22 @@ layout: page
         <a href="{{ post.url | relative_url }}">
           {{ post.title }}
           <small>{% assign m = post.date | date: "%-m" %}
-{{ post.date | date: "%-d" }}
-{% case m %}
-  {% when '1' %}Januar
-  {% when '2' %}Februar
-  {% when '3' %}M&auml;rz
-  {% when '4' %}April
-  {% when '5' %}Mai
-  {% when '6' %}Juni
-  {% when '7' %}Juli
-  {% when '8' %}August
-  {% when '9' %}September
-  {% when '10' %}Oktober
-  {% when '11' %}November
-  {% when '12' %}Dezember
-{% endcase %}
-{{ post.date | date: "%Y" }}</small>
+		  {{ post.date | date: "%-d" }}
+		  {% case m %}
+		  {% when '1' %}enero
+		  {% when '2' %}febrero
+		  {% when '3' %}marzo
+		  {% when '4' %}abril
+		  {% when '5' %}mayo
+		  {% when '6' %}junio
+		  {% when '7' %}julio
+		  {% when '8' %}agosto
+		  {% when '9' %}septiembre
+		  {% when '10' %}octubre
+		  {% when '11' %}noviembre
+		  {% when '12' %}diciembr
+		  {% endcase %}
+		  {{ post.date | date: "%Y" }}</small>
         </a>
       </h3>
     </li>
