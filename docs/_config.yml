@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Tufte
 tagline:          'Working Papers'
-description:      'Working Papers | ISSN (En Trámite)'
+description:      'Working Papers <br /> ISSN (En Trámite)'
 url:              https://bgonzalezbustamante.github.io
 baseurl:          '/tuftepapers/'
                   # the optional subpath of your site, e.g. "/blog"
