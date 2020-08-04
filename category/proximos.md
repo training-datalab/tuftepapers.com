@@ -1,4 +1,0 @@
----
-layout: forthcoming
-title: Próximos
----
