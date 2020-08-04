@@ -13,7 +13,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ### Added
 - Guidelines.
 - ISSN application.
-- Draft Issue-1.
+- Draft Issue-1 in Tufte-LaTeX.
 ### Changed
 - Corrections GitHub page.
 
@@ -24,7 +24,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 - DNS domain redirections.
 - License CC-BY Attribution 4.0 International at GitHub repository.
 - Changelog in TXT format at GitHub repository.
-- Cover page typed in LaTeX.
+- Cover page typed in Tufte-LaTeX.
 
 ## [0.1.0] - 2020-08-02
 ### Added
