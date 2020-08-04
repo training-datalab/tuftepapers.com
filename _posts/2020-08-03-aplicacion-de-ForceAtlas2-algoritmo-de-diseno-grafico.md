@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aplicación de ForceAtlas2, algoritmo de diseño gráfico continúo: Una revisión para estudio de las élites
+title: Aplicación de ForceAtlas2, algoritmo de diseño gráfico continúo
 categories:
   - Números
 excerpt_separator:  <!--more-->
