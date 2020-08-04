@@ -4,8 +4,8 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ## [Unreleased]
 
 ## [1.0.0] - TBC
-## Added
-- Issue 1.
+## Change
+- Edition Issue-1.
 
 ## [Released]
 
@@ -13,6 +13,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ### Added
 - Guidelines.
 - ISSN application.
+- Draft Issue-1.
 ### Changed
 - Corrections GitHub page.
 
