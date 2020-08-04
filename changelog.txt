@@ -3,13 +3,20 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.0] - TBC
+## Added
+- Issue 1.
+
 ## [Released]
 
-## [0.3.0] - 2020-08-05
+## [0.3.0] - 2020-08-04
+### Added
+- Guidelines.
+- ISSN application.
 ### Changed
 - Corrections GitHub page.
 
-## [0.2.0] - 2020-08-04
+## [0.2.0] - 2020-08-03
 ### Added
 - GitHub page powered by Jekyll.
 - Buy me a coffee page.
@@ -18,6 +25,6 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 - Changelog in TXT format at GitHub repository.
 - Cover page typed in LaTeX.
 
-## [0.1.0] - 2020-08-03
+## [0.1.0] - 2020-08-02
 ### Added
 - GitHub repository.
