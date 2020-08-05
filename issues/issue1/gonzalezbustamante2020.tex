@@ -6,7 +6,7 @@
 \\~\\~\\} 
 
 \author{{\normalfont Basti\'an Gonz\'alez-Bustamante}\thanks{PRS DPhil in Politics, Department of Politics and International Relations and St Hilda's College, University of Oxford. Profesor Instructor, Departamento de Gesti\'on y Pol\'iticas P\'ublicas, Facultad de Administraci\'on y Econom\'ia, Universidad de Santiago de Chile.}}
-\date{{\normalfont \normalsize University of Oxford} \\ {\LARGE \Letter} \href{mailto:bastian.gonzalezbustamante@politics.ox.ac.uk}{\textcolor{blue}{\normalfont \normalsize bastian.gonzalezbustamante@politics.ox.ac.uk}} \\~\\
+\date{{\normalfont \normalsize \vspace{-1mm}University of Oxford} \\ {\LARGE \Letter} \href{mailto:bastian.gonzalezbustamante@politics.ox.ac.uk}{\textcolor{blue}{\normalfont \normalsize bastian.gonzalezbustamante@politics.ox.ac.uk}} \\~\\
 {\normalfont Carla Cisternas}\thanks{Asistente de Investigaci\'on, Departamento de Gesti\'on y Pol\'iticas P\'ublicas, Facultad de Administraci\'on y Econom\'ia, Universidad de Santiago de Chile.} \\ {\normalfont \normalsize Universidad de Santiago de Chile} \\ 
 {\LARGE \Letter} \href{mailto:carla.cisternas@usach.cl}{\textcolor{blue}{\normalfont \normalsize carla.cisternas@usach.cl}}
 }%% \\~\\} % without \date command, current date is supplied
@@ -63,31 +63,22 @@
 
 \usepackage{xcolor, colortbl}
 
+\usepackage{lipsum}  
+
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
 
-\maketitle% this prints the handout title, author, and date
+\vspace{8mm}
+\justify{\small {\bfseries Resumen:} Este documento de trabajo prueba un algoritmo alterantiva para los períodos legislativos analizados por González-Bustamante y Cisternas (2016). Se utiliza específicamente ForceAtlas2, el cual es un algoritmo de diseño gráfico continuo desarrollado por Jacomy et al. (2013) basado en un diseño de fuerza directa.\marginnote{{\itshape {\bfseries Palabras clave:} \'Elites; capital político, carreras legislativas; ARS; Chile.}} and economic capitals are relevant factors for electoral success.}\\~\\
 
-\begin{abstract}
-\justify
-\noindent
-{\bfseries Resumen:} Este documento de trabajo prueba un algoritmo alterantiva para los períodos legislativos analizados por González-Bustamante y Cisternas (2016). Se utiliza específicamente ForceAtlas2, el cual es un algoritmo de diseño gráfico continuo desarrollado por Jacomy et al. (2013) basado en un diseño de fuerza directa.\marginnote{{\itshape {\bfseries Palabras clave:} \'Elites; capital político, carreras legislativas; ARS; Chile.}} and economic capitals are relevant factors for electoral success.\\~\\
+{\noindent \LARGE \itshape Applying ForceAtlas2, a Continuous Graph Layout Algorithm, to the Elites Study}\\
 
-{\noindent \Large \itshape Applying ForceAtlas2, a Continuous Graph Layout Algorithm, to the Elites Study}\\~\\
+\justify{\small {\bfseries Abstract:} This working paper tests an alternative algorithm for the legislative periods analysed by González-Bustamante and Cisternas (2016). Specifically, ForceAtlas2 is used, which is a continuous graph layout algorithm developed by Jacomy et al. (2013) based on a force-directed design.\marginnote{{\itshape {\bfseries Keywords:} Elites; political capital, legislative careers; SNA; Chile.}} and economic capitals are relevant factors for electoral success.}
 
-\noindent
-{\bfseries Abstract:} This working paper tests an alternative algorithm for the legislative periods analysed by González-Bustamante and Cisternas (2016). Specifically, ForceAtlas2 is used, which is a continuous graph layout algorithm developed by Jacomy et al. (2013) based on a force-directed design.\marginnote{{\itshape {\bfseries Keywords:} Elites; political capital, legislative careers; SNA; Chile.}} and economic capitals are relevant factors for electoral success.
-\end{abstract}
-%% \pagebreak
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\printclassoptions
-
+\vspace{8mm}
 \section[Introducci\'on] {{\normalfont Introducci\'on}\footnote{Esta investigaci\'on fue parcialmente financiada por los proyectos CONICYT/FONDECYT/1130054 y USA1498.37 de la Universidad de Santiago de Chile.}}
 
-%% \cite{GonzalezBustamante2018} 
 \justify{En Gonz\'alez-Bustamante y Cisternas (2016) se analiz\'o la composici\'on social de las \'elites pol\'iticas en el poder legislativo chileno, espec\'ificamente en la C\'amara de Diputados durante el per\'iodo 1990-2014. En aquel art\'iculo se abordaron las caracter\'isticas personales y las tasas de reelecci\'on de todos los diputados que ejercieron durante aquellos a\~nos ({\itshape n} = 720). Adem\'as, con indicadores simples, an\'alisis de cl\'uster y An\'alisis de Redes Sociales ({\itshape Social Network Analysis}, SNA), se midi\'o el grado de homogeneidad y el trasfondo educacional de las seis legislaturas del per\'iodo. Los hallazgos evidenciaron que la composici\'on social de las legislaturas fue m\'as homog\'enea y, por tanto, existieron redes m\'as densas, mientras m\'as antigua la legislatura, es decir, cuando m\'as cerca de la transici\'on democr\'atica de fines de la d\'ecada de 1980 se estaba\footnote{Para una reflexi\'on te\'orica sobre \'elites pol\'iticas y poder legislativo v\'ease el art\'iculo original.}.}
 
 \justify{En t\'erminos metodol\'ogicos se utiliz\'o Hirschman-Herfindahl index (HHI), tradicionalmente usado para medir concentraciones de mercado, con el objetivo de evaluar la homogeneidad del trasfondo educacional en las distintas legislaturas. Esto se complement\'o con an\'alisis de cl\'uster con un algoritmo {\itshape K-means clustering} o de agrupamiento no jer\'arquico, en l\'inea con los an\'alisis de Gonz\'alez-Bustamante y Olivares (2015) sobre subsecretarios chilenos entre 1990 y 2014\footnote{Aplicaciones no convencionales recientes son Valenzuela y Arriagada (2009) y Gonz\'alez-Bustamante y Soto (2016) para evaluar la homogeneidad de agendas tem\'aticas en medios. Por otro lado, Joignant (2014) lo utiliz\'o para evaluar la concentraci\'on de la parentela pol\'itica en las elecciones de 2013.}. Se trabaj\'o espec\'ificamente con Cali\'niski-Harabasz index con m\'etodo Hellinger para determinar el n\'umero de cl\'usteres. Para esto se utilizaron caracter\'isticas individuales de los diputados como sexo, militancia y variables relacionadas con su trasfondo educacional.}
@@ -292,30 +283,68 @@ F_{r}(n_{1}, n_{2}) = k^{`}_{r}(deg(n_{1}) + 1)(deg(n_{2}) + 1)
 \begin{list}{}%
 {\leftmargin=1em \itemindent=-1em}
 
-\item {\small Blondel, V. D., Guillaume, J.-L., Lambiotte, R., \& Lefebvre, E. (2008). Fast unfolding of communities in large networks. {\itshape Journal of Statistical Mechanics: Theory and Experiment}, (P10008), 1-12.}
-\item {\small Brandes, U. (2001). A Faster Algorithm for Betweenness Centrality. {\itshape Journal of Mathematical Sociology, 25}(2), 163-177.}
-\item {\small Bunker, K., \& Navia, P. (2015). Incumbency Advantage and Tenure Length in the Chilean Chamber of Deputies, 1989-2009. {\itshape Revista de Ciencia Pol\'itica, 35}(2), 251-271.}
-\item {\small Eades, P. D. (1984). A heuristic for graph drawing. {\itshape Congressus Nutnerantiunt, 42}, 149-160.}
-\item {\small Friedkin, N. E. (1981). The development of structure in random networks: an analysis of the effects of increasing network density on five measures of structure. {\itshape Social Networks, 3}(1), 41-52.}
-\item {\small Fruchterman, T. M. J., \& Reingold, E. M. (1991). Graph drawing by force-directed placement. {\itshape Software: Practice and Experience, 21}(11), 1129-1164.}
-\item {\small Gonz\'alez-Bustamante, B. (2014). Elecci\'on directa de consejeros regionales 2013. Rendimiento del capital pol\'itico, familiar y econ\'omico en una nueva arena electoral en Chile. {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 52}(2), 49-91.}
-\item {\small Gonz\'alez-Bustamante, B., \& Cisternas, C. (2016). \'Elites pol\'iticas en el poder legislativo chileno: La C\'amara de Diputados (1990-2014). {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 54}(1), 19-52.}
-\item {\small Gonz\'alez-Bustamante, B., \& Olivares, A. (2015). Rotaci\'on de subsecretarios en Chile: Una exploraci\'on de la segunda l\'inea gubernamental, 1990-2014. {\itshape Revista de Gesti\'on P\'ublica, IV}(2), 151-190.}
-\item {\small Gonz\'alez-Bustamante, B., \& Olivares, A. (2018). La \'elite pol\'itica gubernamental en Chile: supervivencia de ministros (1990-2014). En A. Codato \& F.
+\item{\small Blondel, V. D., Guillaume, J.-L., Lambiotte, R., {\itshape \&} Lefebvre, E. (2008). Fast unfolding of communities in large networks. {\itshape Journal of Statistical Mechanics: Theory and Experiment}, (P10008), 1-12.}
+
+\item{\small Brandes, U. (2001). A Faster Algorithm for Betweenness Centrality. {\itshape Journal of Mathematical Sociology, 25}(2), 163-177.}
+
+\item{\small Bunker, K., {\itshape \&} Navia, P. (2015). Incumbency Advantage and Tenure Length in the Chilean Chamber of Deputies, 1989-2009. {\itshape Revista de Ciencia Pol\'itica, 35}(2), 251-271.}
+
+\item{\small Eades, P. D. (1984). A heuristic for graph drawing. {\itshape Congressus Nutnerantiunt, 42}, 149-160.}
+
+\item{\small Friedkin, N. E. (1981). The development of structure in random networks: an analysis of the effects of increasing network density on five measures of structure. {\itshape Social Networks, 3}(1), 41-52.}
+
+\item{\small Fruchterman, T. M. J., {\itshape \&} Reingold, E. M. (1991). Graph drawing by force-directed placement. {\itshape Software: Practice and Experience, 21}(11), 1129-1164.}
+
+\item{\small Gonz\'alez-Bustamante, B. (2014). Elecci\'on directa de consejeros regionales 2013. Rendimiento del capital pol\'itico, familiar y econ\'omico en una nueva arena electoral en Chile. {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 52}(2), 49-91.}
+
+\item{\small Gonz\'alez-Bustamante, B., {\itshape \&} Cisternas, C. (2016). \'Elites pol\'iticas en el poder legislativo chileno: La C\'amara de Diputados (1990-2014). {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 54}(1), 19-52.}
+
+\item{\small Gonz\'alez-Bustamante, B., {\itshape \&} Olivares, A. (2015). Rotaci\'on de subsecretarios en Chile: Una exploraci\'on de la segunda l\'inea gubernamental, 1990-2014. {\itshape Revista de Gesti\'on P\'ublica, IV}(2), 151-190.}
+
+\item {\small Gonz\'alez-Bustamante, B., {\itshape \&} Olivares, A. (2018). La \'elite pol\'itica gubernamental en Chile: supervivencia de ministros (1990-2014). En A. Codato \& F.
 Espinoza (eds.),{ \itshape Las \'Elites en las Am\'ericas: Diferentes Perspectivas}. Curitiba: Editora Universidade Federal do Paran\'a.}
-\item {\small Gonz\'alez-Bustamante, B., \& Soto, D. (2016). Pluralismo en los medios digitales escritos en Chile, una exploraci\'on de casos clave. {\itshape Serie Pol\'itica, Gesti\'on y Pol\'iticas P\'ublicas}, (2), 1-26.}
-\item {Hanneman, R. A., \& Riddle, M. (2005). {\itshape Introduction to Social Networks Methods}. Riverside: University of California Riverside.}
-\item {\small Jacomy, M., Venturini, T., Heymann, S., \& Bastian, M. (2014). ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software. {\itshape PLoS ONE, 9}(6), 1-12.}
-\item {\small Joignant, A. (2014). El capital pol\'itico familiar: Ventajas de parentela y concentraciones de mercado en las elecciones generales chilenas 2013. {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 52}(2), 13-48.}
-\item {\small Maillet, A., Gonz\'alez-Bustamante, B., \& Olivares, A. (2016). ?`Puerta giratoria? An\'alisis de la circulaci\'on p\'ublico-privada en Chile (2000-2014). {\itshape Serie de Documentos de Trabajo PNUD-Desigualdad}, (7),  1-40.}
-\item {\small Newman, M. E. J., \& Girvan, M. (2004). Finding and evaluating community structure in networks. {\itshape Physical Review E, 69}(2), 026113-1-026113-15.}
+
+\item {\small Gonz\'alez-Bustamante, B., {\itshape \&} Soto, D. (2016). Pluralismo en los medios digitales escritos en Chile, una exploraci\'on de casos clave. {\itshape Serie Pol\'itica, Gesti\'on y Pol\'iticas P\'ublicas}, (2), 1-26.}
+
+\item{\small Hanneman, R. A., {\itshape \&} Riddle, M. (2005). {\itshape Introduction to Social Networks Methods}. Riverside: University of California Riverside.}
+
+\item{\small Jacomy, M., Venturini, T., Heymann, S., {\itshape \&} Bastian, M. (2014). ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software. {\itshape PLoS ONE, 9}(6), 1-12.}
+
+\item{\small Joignant, A. (2014). El capital pol\'itico familiar: Ventajas de parentela y concentraciones de mercado en las elecciones generales chilenas 2013. {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 52}(2), 13-48.}
+
+\item{\small Maillet, A., Gonz\'alez-Bustamante, B., {\itshape \&} Olivares, A. (2016). ?`Puerta giratoria? An\'alisis de la circulaci\'on p\'ublico-privada en Chile (2000-2014). {\itshape Serie de Documentos de Trabajo PNUD-Desigualdad}, (7),  1-40.}
+
+\item {\small Newman, M. E. J., {\itshape \&} Girvan, M. (2004). Finding and evaluating community structure in networks. {\itshape Physical Review E, 69}(2), 026113-1-026113-15.}
+
 \item {\small Noack, A. (2007a). Energy Models for Graph Clustering. {\itshape Journal of Graph Algorithms and Applications, 11}(2), 453-480.}
+
 \item {\small Noack, A. (2007b). {\itshape Unified Quality Measures for Clusterings, Layouts, and Orderings of Graphs, and Their Application as Software Design Criteria}. (Ph. D. Tesis), Brandenburg University of Technology.}
+
 \item {\small Noack, A. (2009). Modularity clustering is force-directed layout. {\itshape Physical Review E, 79}(2), 026102-2-026102-8.}
+
 \item {\small Salda\~na, J. (2014). Carreras pol\'iticas de los diputados chilenos, 1989-2013: evoluci\'on y sus consecuencias para la representaci\'on pol\'itica del pa\'is. {\itshape Pol\'itica, Revista de Ciencia Pol\'itica, 52}(2), 127-155.}
-\item {\small Valenzuela, S., \& Arriagada, A. (2009). Competencia por la uniformidad en noticieros y diarios chilenos 2000-2005. {\itshape Cuadernos.info}, (24), 41-52.}
-\item {\small Wasserman, S., \& Faust, K. (1994). {\itshape Social Network Analysis: Methods and Applications}. Nueva York: Cambridge University Press.}
+
+\item {\small Valenzuela, S., {\itshape \&} Arriagada, A. (2009). Competencia por la uniformidad en noticieros y diarios chilenos 2000-2005. {\itshape Cuadernos.info}, (24), 41-52.}
+
+\item {\small Wasserman, S., {\itshape \&} Faust, K. (1994). {\itshape Social Network Analysis: Methods and Applications}. Nueva York: Cambridge University Press.}
 \end{list}
+
+\vspace{8mm}
+\section[Revisión]{\LARGE \itshape Informe abierto de revisi\'on}
+
+\vspace{8mm}
+{\noindent {\Large Rodrigo Cuevas}\footnote{Docente, Escuela de Postgrado, Instituto de Asuntos Públicos, Universidad de Chile} \\
+\vspace{1mm}{\normalsize Universidad de Chile} \\
+\vspace{1mm}{\LARGE \Letter} \href{mailto:email@email.com}{\textcolor{blue}{\normalsize email@email.com}}}
+\vspace{8mm}
+
+\justify{\textcolor{red}{\lipsum[1]}}
+
+\justify{\textcolor{red}{\lipsum[1]}}
+
+\justify{\textcolor{red}{\lipsum[1]}}
+
+\justify{\textcolor{red}{\lipsum[1]}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
