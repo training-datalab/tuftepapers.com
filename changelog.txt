@@ -9,6 +9,12 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.4.0] - 2020-08-05
+### Added
+- Open review guidelines.
+### Changed
+- Update directories routes.
+
 ## [0.3.0] - 2020-08-04
 ### Added
 - Guidelines.
