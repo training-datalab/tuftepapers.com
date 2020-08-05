@@ -3,7 +3,7 @@ highlighter:      rouge
 encoding: UTF-8
 
 title: Tufte
-tagline 'Working Papers'
+tagline: 'Working Papers'
 description: 'Working Papers <br /> ISSN (En Trámite)'
 url: https://tuftepapers.com
 baseurl: '/'
