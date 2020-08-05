@@ -1,3 +1,3 @@
 # Tufte Working Papers
- **GitHub repository** \
+ **GitHub Repository** \
  **http://tuftepapers.com**
