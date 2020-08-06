@@ -9,6 +9,16 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.5.0] - 2020-08-06
+### Added
+- GitHub Organisation account.
+- GitHub issues repository.
+- GitHub editorial management (private) repository.
+- Draft Issue-TBC in PDF.
+### Changed
+- Update directories routes.
+- Corrections GitHub page.
+
 ## [0.4.0] - 2020-08-05
 ### Added
 - Open review guidelines.
