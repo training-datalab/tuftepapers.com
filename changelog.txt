@@ -9,6 +9,10 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.5.1] - 2020-08-09
+### Changed
+- Update guidelines.
+
 ## [0.5.0] - 2020-08-06
 ### Added
 - GitHub Organisation account.
