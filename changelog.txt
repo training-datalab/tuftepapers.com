@@ -9,7 +9,9 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
-## [0.5.1] - 2020-08-09
+## [0.6.0] - 2020-08-09
+### Added
+- Draft Issue-2 in Tufte-LaTeX.
 ### Changed
 - Update guidelines.
 
