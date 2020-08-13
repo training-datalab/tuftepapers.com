@@ -9,6 +9,10 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.7.2] - 2020-08-13
+### Changed
+- Corrections GitHub page.
+
 ## [0.7.1] - 2020-08-12
 ### Added
 - ISSN 2735-6043 (versión en línea).
