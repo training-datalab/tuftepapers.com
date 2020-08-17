@@ -10,7 +10,7 @@ baseurl: '/'
 
 author:
   name: 'Bastián González-Bustamante'
-  url: https://twitter.com/bastiangb
+  url: https://bgonzalezbustamante.com/
 
 paginate: 5
 ## paginate_path: '/page:num'
@@ -28,7 +28,7 @@ exclude:
   - README.md
   - .gitignore
 
-permalink:        /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 
 defaults:
   - scope:
@@ -44,7 +44,7 @@ sidebar_home_link: true
 google_analytics: UA-154958231-2
 
 hydeout:
-  version:          4.1.0
-  repo:             https://github.com/fongandrew/hydeout
+  version: 4.1.0
+  repo: https://github.com/fongandrew/hydeout
 
 remote_theme: fongandrew/hydeout
