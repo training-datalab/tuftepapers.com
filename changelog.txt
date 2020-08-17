@@ -9,6 +9,11 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.7.3] - 2020-08-17
+### Changed
+- Contact details.
+- Update guidelines.
+
 ## [0.7.2] - 2020-08-13
 ### Changed
 - Corrections GitHub page.
