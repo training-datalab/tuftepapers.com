@@ -7,6 +7,10 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ## Change
 - Proofreading Issue-1.
 
+## [0.8.3] - TBC
+### Added
+- Summary editorial team.
+
 ## [Released]
 
 ## [0.7.3] - 2020-08-17
