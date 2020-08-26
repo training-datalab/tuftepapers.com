@@ -13,6 +13,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ## [0.8.3] - 2020-08-26
 ### Added
 - Summary editorial team.
+- Badges in SVG at GitHub repositories.
 
 ## [0.7.3] - 2020-08-17
 ### Changed
