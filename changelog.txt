@@ -3,10 +3,13 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Unreleased]
 
+## [1.1.0] - TBC
+### Added
+- VOR Issue-2
+
 ## [1.0.0] - TBC
 ## Change
 - VOR Issue-1.
-- Edition Issue-2.
 
 ## [Released]
 
@@ -14,6 +17,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ### Added
 - Summary editorial team.
 - Badges in SVG at GitHub repositories.
+- Edition Issue-2.
 
 ## [0.7.3] - 2020-08-17
 ### Changed
