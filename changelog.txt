@@ -13,6 +13,10 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [0.8.4] - 2020-09-03
+### Changed
+- Permalinks structures.
+
 ## [0.8.3] - 2020-08-26
 ### Added
 - Summary editorial team.
