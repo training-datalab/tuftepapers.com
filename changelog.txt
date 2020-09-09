@@ -13,51 +13,50 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
-## [0.9.4] - 2020-09-07
+## [0.8.5] - 2020-09-09
+### Changed
+- Cover page template typed in Tufte-LaTeX.
+- Structure GitHub issues repository.
+- Update open review guidelines.
+- Revision of upgrade versioning.
+
+## [0.8.4] - 2020-09-07
 ### Added
 - Buy me a coffee badges at GitHub.
 ### Changed
 - Rename GitHub issues repository.
 
-## [0.8.4] - 2020-09-03
+## [0.7.4] - 2020-09-03
 ### Changed
 - Permalinks structures.
 
-## [0.8.3] - 2020-08-26
+## [0.7.3] - 2020-08-26
 ### Added
 - Summary editorial team.
 - Badges in SVG at GitHub repositories.
-- Edition Issue-2.
 
-## [0.7.3] - 2020-08-17
+## [0.6.3] - 2020-08-17
 ### Changed
 - Contact details.
 - Update guidelines.
 
-## [0.7.2] - 2020-08-13
+## [0.6.2] - 2020-08-13
 ### Changed
 - Corrections GitHub page.
 
-## [0.7.1] - 2020-08-12
+## [0.6.1] - 2020-08-12
 ### Added
 - ISSN 2735-6043.
 
-## [0.6.1] - 2020-08-10
-## Change
-- Edition Issue-1.
-
-## [0.6.0] - 2020-08-09
-### Added
-- Draft Issue-2 in Tufte-LaTeX.
+## [0.5.1] - 2020-08-09
 ### Changed
 - Update guidelines.
 
 ## [0.5.0] - 2020-08-06
 ### Added
-- GitHub Organisation account.
+- GitHub organisation account.
 - GitHub issues repository.
 - GitHub editorial management private repository.
-- Draft Issue-2 in PDF.
 ### Changed
 - Update directories routes.
 - Corrections GitHub page.
@@ -73,7 +72,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ### Added
 - Guidelines.
 - ISSN application.
-- Draft Issue-1 in Tufte-LaTeX.
+- Issue template typed in Tufte-LaTeX.
 ### Changed
 - Corrections GitHub page.
 
@@ -84,7 +83,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 - DNS domain redirections.
 - License CC-BY Attribution 4.0 International at GitHub repository.
 - Changelog in TXT format at GitHub repository.
-- Cover page typed in Tufte-LaTeX.
+- Cover page template typed in Tufte-LaTeX.
 
 ## [0.1.0] - 2020-08-02
 ### Added
