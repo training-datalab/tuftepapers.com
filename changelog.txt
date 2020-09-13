@@ -7,11 +7,13 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 ### Added
 - VOR Issue-2
 
-## [1.0.0] - TBC
-## Change
-- VOR Issue-1.
-
 ## [Released]
+
+## [1.0.0] - 2020-09-13
+## Added
+- VOR Issue-1.
+### Changed
+- Corrections GitHub page.
 
 ## [0.8.5] - 2020-09-09
 ### Changed
