@@ -9,6 +9,10 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [Released]
 
+## [1.0.1] - 2020-09-17
+### Changed
+- Corrections GitHub page.
+
 ## [1.0.0] - 2020-09-13
 ## Added
 - VOR Issue-1.
