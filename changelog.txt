@@ -11,6 +11,7 @@ All notable changes to "Tufte Working Papers" will be documented in this file.
 
 ## [1.0.3] - 2020-03-27
 ### Changed
+- Revision of upgrade versioning.
 - Minor corrections.
 
 ## [1.0.2] - 2020-12-23
